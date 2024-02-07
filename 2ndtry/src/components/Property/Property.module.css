@@ -1,0 +1,86 @@
+/* Property.module.css */
+                           
+.propertyCard {
+    display: flex;
+    margin-bottom: 20px; /* Add margin-bottom to separate cards */
+    border-radius: 10px; /* Add border-radius for rounded corners if desired */
+    overflow: hidden; /* Hide overflow to prevent images from overflowing */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 390px;
+ 
+}
+  
+  .propertyContainer {
+    flex: 1;
+  }
+  
+  .propertyImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .propertyDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px; /* Add padding to the details for spacing */
+  color: #ffffff;
+}
+  
+  .propertyTitle {
+  
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px; /* Add margin to separate title from other details */
+    margin-left: 20px;
+    align-items: center;
+  }
+  
+  .propertyAddress {
+    font-size: 18px;
+    margin-bottom: 10px; /* Add margin to separate address from other details */
+  }
+  
+  .propertyFeatures {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+  }
+  
+  .propertyFeature {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    justify-content: center;
+  }
+  
+  .propertyFeature img {
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+  }
+  
+  .propertyFeatureText {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #ffffff; /* Set your text color */
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  
+  .propertySize {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #ffffff; /* Set your text color */
+  }
+  

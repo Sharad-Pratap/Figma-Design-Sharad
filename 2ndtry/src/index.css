@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #121B25;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px; /* Set your maximum width for content */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding to the container if needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  
+}
